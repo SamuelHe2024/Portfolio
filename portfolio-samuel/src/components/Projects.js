@@ -29,8 +29,8 @@ export default function Projects(){
                 <div className="h-2/5">
                     </div>
                     <div className="grid h-3/5 bg-black">
-                        <div className="m-auto">
-                            <div className="text-keppel text-4xl font-mono">
+                        <div className="grid md:grid-cols-2 lg:grid-cols-3">
+                            <div className="text-keppel m-auto text-4xl font-mono lg:col-span-3 md:col-span-2">
                                 Repositories:
                             </div>
                             {projectList.map(
