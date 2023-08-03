@@ -1029,6 +1029,7 @@
     },
     "JavaScript": {
         "color": "bg-[#f1e05a]",
+        "border-color": "border-l-[#f1e05a]",
         "url": "https://github.com/trending?l=JavaScript"
     },
     "JavaScript+ERB": {
@@ -1773,6 +1774,7 @@
     },
     "Python": {
         "color": "bg-[#3572A5]",
+        "border-color": "border-l-[#3572A5]",
         "url": "https://github.com/trending?l=Python"
     },
     "Python console": {
