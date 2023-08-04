@@ -1,6 +1,7 @@
 const profile = [{
     "role":"Engineering Analyst",
     "company":"Goldman Sachs",
+    "imgLink":"gs.png",
     "type":"Full-time",
     "duration":"Jul 2023 - Present · 2 mos",
     "location":"Dallas, Texas, United States · On-site",
@@ -10,6 +11,7 @@ const profile = [{
  {
     "role":"Computer Science Teaching Assistant",
     "company":"Texas A&M University",
+    "imgLink":"tamu.png",
     "type":"Part-time",
     "duration":"Jan 2022 - May 2023 · 1 yr 5 mos",
     "location":"College Station, Texas, United States",
@@ -19,6 +21,7 @@ const profile = [{
  {
     "role":"Software Engineer",
     "company":"Texas A&M SEDS",
+    "imgLink":"seds.png",
     "type":"Freelance",
     "duration":"Sep 2022 - Dec 2022 · 4 mos",
     "location":"College Station, Texas, United States",
@@ -28,6 +31,7 @@ const profile = [{
  {
     "role":"Engineering Summer Analyst",
     "company":"Goldman Sachs",
+    "imgLink":"gs.png",
     "type":"Internship",
     "duration":"Jun 2022 - Aug 2022 · 3 mos",
     "location":"Dallas, Texas, United States",
@@ -37,10 +41,12 @@ const profile = [{
 {
     "role":"Mathematics Instructor",
     "company":"Southlake Tutoring Academy",
+    "imgLink":"sta.png",
     "type":"Full-time",
     "duration":"Feb 2021 - Aug 2021 · 7 mos",
     "location":"Southlake, Texas, United States",
     "description":"",
     "Skills":""
 }]
+
 export default profile

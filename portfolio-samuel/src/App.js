@@ -9,8 +9,8 @@ function App() {
   return (
     <div>
     <LandingCard/>
-    <Projects></Projects>
     <WorkExperience></WorkExperience>
+    <Projects></Projects>
     </div>
   );
 }
