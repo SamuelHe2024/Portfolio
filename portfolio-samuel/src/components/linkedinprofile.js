@@ -11,7 +11,7 @@ const profile = [{
  {
     "role":"Computer Science Teaching Assistant",
     "company":"Texas A&M University",
-    "imgLink":"tamu.png",
+    "imgLink":"tamu.jpg",
     "type":"Part-time",
     "duration":"Jan 2022 - May 2023 · 1 yr 5 mos",
     "location":"College Station, Texas, United States",

@@ -21,11 +21,11 @@ export default function Projects(){
     
 
     return(
-        <div className = "bg-gunmetal">
+        <div className = "relative bg-slate-900">
                 <div className="grid h-full">
-                    <div className="grid mt-[10vh] lg:grid-cols-3 mx-auto mb-[10vh]">
-                        <div className="border-t border-arsenic pt-12 font-bold m-2 sm:m-0 text-keppel py-1 mb-4 underline underline-offset-8 text-2xl md:text-3xl lg:text-4xl font-mono lg:col-span-3">
-                            PUBLIC REPOSITORIES
+                    <div className="grid mt-[5vh] lg:grid-cols-3 mx-auto mb-[10vh]">
+                        <div className="border-t border-arsenic pt-12 font-bold mx-5 text-white py-1 text-lg lg:text-xl font-mono lg:col-span-3">
+                            Projects
                         </div>
                         {projectList.map(
                             project=>

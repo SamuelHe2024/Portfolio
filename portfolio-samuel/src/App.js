@@ -8,7 +8,8 @@ import WorkExperience from './components/WorkExperience';
 function App() {
   return (
     <div>
-    <LandingCard/>
+    <LandingCard></LandingCard>
+    <div className='h-[90vh]'></div>
     <WorkExperience></WorkExperience>
     <Projects></Projects>
     </div>
