@@ -1,7 +1,7 @@
 {
   "name": "portfolio-samuel",
   "version": "0.1.0",
-  "homepage":"https://weewoo123.github.io/Portfolio",
+  "homepage": "https://weewoo123.github.io/Portfolio/",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^5.17.0",
