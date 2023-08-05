@@ -2,7 +2,7 @@ import profile from "./linkedinprofile"
 import ExperienceCard from "./utils/Experience Card" 
 export default function WorkExperience(props){
     return(
-        <div className = "relative bg-slate-900 border-t-2 inherit border-keppel">
+        <div id="experience" className = "relative bg-slate-900 border-t-2 inherit border-keppel">
             <div className = "m-auto row-span-2 h-[10vh] grid grid-cols-5">
                 <div className='col-span-2'></div>
                 <button onClick={() => window.scrollTo({
@@ -16,7 +16,7 @@ export default function WorkExperience(props){
             </div>
             <div className="h-full grid">
                 
-                <div   className="max-w-xl xl:max-w-4xl lg:max-w-2xl bg-arsenic sm:rounded-xl rounded-none mt-[10vh] mx-auto">
+                <div   className="max-w-xl xl:max-w-4xl lg:max-w-2xl bg-arsenic sm:rounded-xl rounded-none mx-auto">
                     <div   className="border-t mx-8 p-2 pt-8 border-arsenic font-bold text-white py-1 text-lg md:text-xl font-mono">
                         Experience:
                     </div>
@@ -35,7 +35,6 @@ export default function WorkExperience(props){
                         </ExperienceCard>
                     )}
                     </div>
-                    <div id="experience"></div>
                 </div>
                 
             </div>
