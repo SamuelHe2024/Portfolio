@@ -9,7 +9,7 @@ export default function Projects(){
     useEffect(()=>{
         async function getRepos(){
             try {
-                const response = await fetch("https://api.github.com/users/weewoo123/repos")
+                const response = await fetch("https://api.github.com/users/SamuelHe2024/repos")
                 const json = await response.json()
                 setProjectList(json)
             } catch(error){
