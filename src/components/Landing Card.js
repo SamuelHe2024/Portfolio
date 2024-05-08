@@ -14,7 +14,7 @@ export default function LandingCard(){
                 <img src={profile} alt={empty}  className="m-auto mb-8 col-span-3 my-auto w-[125px] xl:w-[200px] border-keppel border-2 rounded-full"/>
                 <div className="grid grid-cols-4 mb-8">
                     <div></div>
-                    <a href = "https://github.com/weewoo123"><img src={github} alt={empty} className="max-w-[40px] m-auto"></img></a>
+                    <a href = "https://github.com/SamuelHe2024"><img src={github} alt={empty} className="max-w-[40px] m-auto"></img></a>
                     <a href = "https://www.linkedin.com/in/samuel-he-48151b202"><img src={linkedin} alt = {empty} className="max-w-sm m-auto"></img></a>
                 </div>
             </div>
